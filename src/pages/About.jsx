@@ -1,13 +1,10 @@
-import React from "react";
-
-import CommonSection from "../components/UI/CommonSection";
+import CommonSection from "../components/UI/CommonSection/CommonSection";
 import Helmet from "../components/Helmet/Helmet";
-import AboutSection from "../components/UI/AboutSection";
+import AboutSection from "../components/UI/AboutSection/AboutSection";
 import { Container, Row, Col } from "reactstrap";
-import BecomeDriverSection from "../components/UI/BecomeDriverSection";
-
+import BecomeDriverSection from "../components/UI/BecomeDriverSection/BecomeDriverSection";
 import driveImg from "../assets/all-images/drive.jpg";
-import OurMembers from "../components/UI/OurMembers";
+import OurMembers from "../components/UI/OurMembers/OurMembers";
 import "../styles/about.css";
 
 const About = () => {
