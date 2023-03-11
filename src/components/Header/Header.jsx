@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
-import "../../styles/header.css";
+import "./header.css";
 
 const navLinks = [
   {
@@ -43,7 +43,7 @@ const Header = () => {
               <div className="header__top__left">
                 <span>Need Help?</span>
                 <span className="header__top__help">
-                  <i class="ri-phone-fill"></i> +1-202-555-0149
+                  <i class="ri-phone-fill"></i> +1-222-333-4567
                 </span>
               </div>
             </Col>
