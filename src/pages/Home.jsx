@@ -1,18 +1,16 @@
-import React from "react";
-
-import HeroSlider from "../components/UI/HeroSlider";
+import HeroSlider from "../components/UI/HeroSlider/HeroSlider";
 import Helmet from "../components/Helmet/Helmet";
 
 import { Container, Row, Col } from "reactstrap";
-import FindCarForm from "../components/UI/FindCarForm";
-import AboutSection from "../components/UI/AboutSection";
-import ServicesList from "../components/UI/ServicesList";
+import FindCarForm from "../components/UI/FindCarForm/FindCarForm";
+import AboutSection from "../components/UI/AboutSection/AboutSection";
+import ServicesList from "../components/UI/ServicesList/ServicesList";
 import carData from "../assets/data/carData";
-import CarItem from "../components/UI/CarItem";
-import BecomeDriverSection from "../components/UI/BecomeDriverSection";
-import Testimonial from "../components/UI/Testimonial";
+import CarItem from "../components/UI/CarItem/CarItem";
+import BecomeDriverSection from "../components/UI/BecomeDriverSection/BecomeDriverSection";
+import Testimonial from "../components/UI/Testimonial/Testimonial";
 
-import BlogList from "../components/UI/BlogList";
+import BlogList from "../components/UI/BlogList/BlogList";
 
 const Home = () => {
   return (
