@@ -1,8 +1,6 @@
-import React from "react";
-import "../../styles/become-driver.css";
+import "../../../styles/become-driver.css";
 import { Container, Row, Col } from "reactstrap";
-
-import driverImg from "../../assets/all-images/toyota-offer-2.png";
+import driverImg from "../../../assets/all-images/toyota-offer-2.png";
 
 const BecomeDriverSection = () => {
   return (
@@ -14,7 +12,7 @@ const BecomeDriverSection = () => {
           </Col>
 
           <Col lg="6" md="6" sm="12">
-            <h2 className="section__title become__driver-title">
+            <h2 className=" become__driver-title">
               Do You Want to Earn With Us? So Don't Be Late
             </h2>
 
